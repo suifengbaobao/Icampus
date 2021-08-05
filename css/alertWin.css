@@ -1,0 +1,26 @@
+/*
+* @Author: suife
+* @Date:   2017-04-16 20:23:44
+* @Last Modified by:   suife
+* @Last Modified time: 2017-04-16 20:51:02
+*/
+.alertWindowContent h1,p{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+}
+.alertWindowContent input{
+	width: 100px;
+	height: 50px;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#successImg{
+	width: 200px;
+	height: 60px;
+	margin: 0px auto;
+	background: url("http://static.icampus.com/image/save-attention.jpg") no-repeat ;
+	border:none;
+}

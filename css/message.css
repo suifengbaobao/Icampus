@@ -1,0 +1,148 @@
+/*
+* @Author: suife
+* @Date:   2017-04-15 10:28:44
+* @Last Modified by:   suife
+* @Last Modified time: 2017-04-16 00:36:12
+*/
+
+/* 简信 */
+.message{
+	width: 980px;
+	/* border: 1px solid #ccc; */
+	margin: 10px auto;
+}
+/* 精选简信 */
+.hot-message{
+	width: 650px;
+	/* border-right: 1px solid #ddd; */
+	/* overflow: hidden; */
+}
+.hot-message-nav{
+	width: 620px;
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+	font: 16px/50px 微软雅黑;
+	color: #aaa;
+}
+.hot-message-con{
+	width: 600px;
+	padding: 10px;
+	font: 13px/20px 微软雅黑;
+	border-bottom: 1px solid #ddd;
+}
+.hot-message-con .user-pic{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+}
+.hot-message-con img{
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+.hot-message-content{
+	padding-left: 60px;
+	color: #333;
+	text-align: justify;
+	position: relative;
+}
+.hot-message-content span.username{
+	color: rgb(62,177,240);
+}
+.hot-message-content span.time{
+	margin-top: 2px;
+	color: #aaa;
+}
+/* 新发送简信 */
+.new-message{
+	width: 320px;
+}
+.new-message-con{
+	width: 320px;
+	/* padding: 10px; */
+	margin-top: 10px;
+	font: 13px/20px 微软雅黑;
+	border-bottom: 1px solid #ddd;
+}
+.new-message-con .user-pic{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+}
+.new-message-con img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+.new-message-content{
+	padding-left: 40px;
+	color: #333;
+	text-align: justify;
+	position: relative;
+}
+.new-message-content span.username{
+	color: rgb(62,177,240);
+}
+.new-message-content span.time{
+	margin-top: 2px;
+	color: #aaa;
+}
+.send-message-nav{
+	text-align: center;
+	height: 40px;
+	font: 18px/50px 楷体;
+	border-bottom: 1px solid #ddd;
+}
+.send-message{
+	width: 320px;
+	height: 140px;
+}
+.send-message textarea{
+	display: block;
+	width: 280px;
+	height: 100px;
+	margin: 10px auto;
+	resize: none;
+	font: 15px/15px 楷体;
+	text-align: justify;
+}
+.send-message input[type="radio"]{
+	margin-left: 60px;
+	font-size: 13px;
+}
+.send-message span{
+	font: 15px 楷体;
+}
+.send-message input[type=submit]{
+	width: 50px;
+	height: 20px;
+	border: 1px solid #ddd;
+	background: #fff;
+	margin-left: 40px;
+}
+.new-message-nav{
+	width: 320px;
+	height: 40px;
+	border-bottom: 1px solid #ddd;
+	font: 16px/50px 微软雅黑;
+	color: #aaa;
+}
+.dianzan{
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	position: absolute;
+	right: 50px;
+	bottom: 0px;
+	background: url(../image/dianzan.png) no-repeat;
+}
+.dianzan:hover{
+	background: url(../image/dianzan2.png) no-repeat;
+}
+.message-star-nums{
+	position: absolute;
+	right: 5px;
+	bottom: 0px;
+}

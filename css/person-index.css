@@ -1,0 +1,107 @@
+body,div,input,img,span,a,ul,li,p,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	border: 0px;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+/*Ö÷Ò³*/
+ .card-con{
+    margin: 10px 10px 10px 20px;
+    width: 270px;
+    height: 170px;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  .card-con img{
+    width: 270px;
+    height: 170px;
+  }
+  /* .card .user-pic img{
+    height: 45px;
+    width: 45px;
+  }
+  .card .user-pic{
+    display: block;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; 
+    background: url(../image/p1.jpg);
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  } */
+  .card-pic-title{
+    width: 270px;
+    height: 30px;
+    /* height: 55px; */
+    background: rgba(4,4,4,0.8);
+    /* background: #000; */
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+  }
+  .card-pic-title p{
+    text-indent: 1.5em;
+   color: #ddd;
+   font: 13px/30px Î¢ÈíÑÅºÚ;
+   /* font: 13px/25px Î¢ÈíÑÅºÚ; */
+  }
+  .card-pic-title p a{
+    color: #ddd;
+  }
+  .card-pic-title p a:hover{
+    text-decoration: underline;
+  }
+  .card-pic-title img{
+    width: 16px;
+    height: 14px;
+    display: hidden;
+    position: absolute;
+    right: 50px;
+    bottom: 8px;
+  }
+  .card-pic-title span{
+    display: hidden;
+    color: #ddd;
+    position: absolute;
+    right: 15px;
+    bottom: 8px;
+    font-size: 13px;
+  }
+  /*¹¤¾ß*/
+ .card-page{
+  padding-right: 10px;
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  right: 450px;
+  bottom: 0px;
+ }
+.card-page a:hover{
+  color: rgb(62,177,240);
+}

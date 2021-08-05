@@ -1,0 +1,206 @@
+/*
+* @Author: suife
+* @Date:   2017-04-13 14:24:36
+* @Last Modified by:   suife
+* @Last Modified time: 2017-04-16 21:25:37
+*/
+ /* 大广告 */
+  #banner{
+    width: 980px;
+    height: 400px;
+    margin: 10px auto;
+    overflow: hidden;
+    position: relative;
+  }
+  #banner-con{
+    /*width: 2720px;*/
+    height: 503px;
+    position: absolute;
+    left: 0;
+  }
+  #banner-con img{
+    float: left;
+  }
+
+  #tab{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  #tab li{
+    width: 15px;
+    height: 15px;
+    background: rgb(124,210,84);
+    border-radius:50% ;
+    /*color: #fff;*/
+    text-align: center;
+    /*font-size: 10px;*/
+    line-height: 15px;
+    margin-right: 5px;
+    float: left;
+    cursor: pointer;
+  }
+  #tab li.selected{
+    background: rgb(62,177,240);
+  }
+
+  #arrows{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    right: 10px;
+  }
+  #arrows span{
+    width: 40px;
+    height: 80px;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  #prev{
+    float: left;
+    background-image:url(../image/pre.png) ;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+    background-position: center;
+    /*background-size:100% 100%;*/
+  }
+  #prev:hover{
+    background-color: #1a1818;
+    opacity: .5;
+  }
+  #next:hover{
+    background-color: #1a1818;
+    opacity: .5;
+  }
+  #next{
+    float: right;
+    background-image:url(../image/pre.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /*background-size:100% 100%;*/
+  }
+ /* 社区美文 */
+ .article{
+ 	width: 1180px;
+ 	height: 220px;
+ 	margin: 20px auto;
+ }
+ .art-title{
+ 	width: 1180px;
+ 	height: 30px;
+ 	background: url(../image/article.png) no-repeat left center;
+ 	border-bottom: 1.5px solid rgb(62,177,240);
+ 	text-align: right;
+ 	font-size: 13px;
+ 	line-height: 30px;
+ }
+ .art-title a{
+ 	color: rgb(62,177,240);
+ }
+ .art-title a:hover{
+ 	color: #0000ff;
+ }
+ .art-content{
+ 	width: 269px;
+ 	height: 180px;
+ 	border: 1px solid #ccc;
+ 	margin: 10px 12px; 
+ }
+ .art-con-user-pic{
+ 	width: 50px;
+ 	height: 50px;
+ }
+ .art-con-user-pic img{
+ 	padding: 2px;
+ 	width: 50px;
+ 	height: 50px;
+ 	border-radius: 50%;
+ }
+ .art-con-title p{
+ 	width: 205px;
+ 	margin: 15px 8px 8px 2px;
+ 	padding-bottom: 10px;
+ 	border-bottom: 1px solid rgb(62,177,240);
+ 	text-align: center;
+ 	font: 700 15px 楷体;
+ }
+ .art-content-bottom{
+ 	padding: 10px;
+ 	text-align: justify;
+ 	text-indent: 2em;
+ 	font: 13px/25px 微软雅黑;
+ 	color: #666;
+ 	overflow: hidden;
+ }
+ /* 简美短片 */
+ .video{
+ 	width: 1180px;
+ 	height: 445px;
+ 	margin: 10px auto;
+ }
+ .video-title{
+ 	width: 1180px;
+ 	height: 30px;
+ 	background: url(../image/video.png) no-repeat left center;
+ 	border-bottom: 1.5px solid rgb(112,173,71);
+ }
+ .video-con{
+ 	width: 980px;
+ 	height: 400px;
+ 	margin: 10px auto;
+ 	border: 1px solid #ccc;
+ 	background: url(../image/video_bg.png);
+ }
+ .video-content{
+	width: 700px;
+	height: 390px;
+	margin: 5px 5px;
+	border: 1px solid #ccc;
+    position: relative;
+ }
+ .video-nav{
+ 	width: 240px;
+ 	height: 390px;
+ 	margin: 5px 10px;
+	/* border: 1px solid #ccc; */
+ }
+ .video-nav-con{
+ 	width: 235px;
+ 	height: 90px;
+ 	margin: 6px auto;
+ }
+ .video-nav-con a{
+  display: block;
+  width: 235px;
+  height: 90px;
+  margin: 5px auto;
+  border: 1px solid #ccc;
+ }
+ .video-nav-con img{
+ 	float: left;
+ 	width: 130px;
+ 	height: 90px;
+ 	/* vertical-align: center; */
+ }
+ .video-nav-con p{
+ 	padding: 2px;
+ 	width:100px;
+ 	height: 90px;
+ 	float: right;
+ 	font: 14px 楷体;
+ 	color: #666;
+ }
+/*视频按钮*/
+#begin{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    width: 62px;
+    height: 62px;
+    background-image: url(http://static.icampus.com/image/start.png) no-repeat;
+    background-position: -172.5px -124px;
+    border-radius: 50%;
+    display: block;
+}

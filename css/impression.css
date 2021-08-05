@@ -1,0 +1,143 @@
+/*
+* @Author: suife
+* @Date:   2017-04-14 18:03:29
+* @Last Modified by:   suife
+* @Last Modified time: 2017-04-18 19:55:24
+*/
+
+/* 广告 */
+ .banner{
+  	width: 980px;
+  	height: 100px;
+  	margin: 10px auto;
+  }
+  /* 分类 */
+  .classify{
+  	width: 980px;
+  	height: 40px;
+  	margin: 0 auto;
+  	background: rgb(249,249,249);
+  }
+  .classify li{
+  	float: left;
+  }
+  .classify li a{
+  	padding: 0px 20px;
+  	display: inline-block;
+  	height: 40px;
+  	font: 13px/40px 微软雅黑;
+  }
+ /*  .classify li a:hover{
+  	background: rgba(62,177,240,0.6);
+  	color: #fff;
+  } */
+  /* 搜索框 */
+  .search{
+	margin-right: 20px;
+	position: relative;
+  }
+  .search input[type="text"]{
+  	margin-top: 8px;
+	width: 180px;
+	height: 22px;
+  }
+  .search a{
+  	display: block;
+  	border: 0px;
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	right: 1px;
+	bottom: 1px;
+	background: url(../image/search.png) no-repeat;
+  }
+  .search a:hover{
+  	background: url(../image/search2.png) no-repeat;
+  }
+  .card{
+  	width: 980px;
+    height: 675px;
+  	border: 1px solid #ccc;
+  	margin: 10px auto;
+  	overflow: hidden;
+  	padding: 0px 0px 10px 0px;
+    position: relative;
+  }
+  .card-con{
+  	margin: 10px;
+  	width: 223px;
+  	border: 1px solid #ccc;
+  	position: relative;
+  }
+  .card-con img{
+    width: 223px;
+    height: 140px;
+  }
+  /* .card .user-pic img{
+  	height: 45px;
+  	width: 45px;
+  }
+  .card .user-pic{
+  	display: block;
+  	width: 45px;
+  	height: 45px;
+  	border-radius: 50%; 
+  	background: url(../image/p1.jpg);
+  	position: absolute;
+  	left: 0px;
+  	bottom: 0px;
+  } */
+  .card-pic-title{
+  	width: 223px;
+  	height: 30px;
+  	/* height: 55px; */
+  	background: rgba(4,4,4,0.8);
+  	/* background: #000; */
+  	position: absolute;
+  	left: 0px;
+  	bottom: 0px;
+  }
+  .card-pic-title p{
+  	text-indent: 1.5em;
+	 color: #ddd;
+	 font: 13px/30px 微软雅黑;
+	 /* font: 13px/25px 微软雅黑; */
+  }
+  .card-pic-title p a{
+    color: #ddd;
+  }
+  .card-pic-title p a:hover{
+    text-decoration: underline;
+  }
+  .card-pic-title img{
+    width: 16px;
+    height: 14px;
+    display: hidden;
+  	position: absolute;
+  	right: 50px;
+  	bottom: 8px;
+  }
+  .card-pic-title span{
+    display: hidden;
+  	color: #ddd;
+  	position: absolute;
+  	right: 15px;
+  	bottom: 8px;
+  	font-size: 13px;
+  }
+  /*页面管理*/
+   .card-page{
+   	padding-right: 10px;
+   	height: 30px;
+   	line-height: 30px;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+ }
+ .card-page input{
+ 	width: 30px;
+ 	height: 20px;
+ }
+.card-page a:hover{
+	color: rgb(62,177,240);
+}

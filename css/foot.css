@@ -1,0 +1,31 @@
+/* 底部 */
+ .foot{
+ 	height: 200px;
+ 	text-align: center;
+ 	/* background: #000; */
+ 	background: url(../image/foot_bg.png);
+ }
+ .one-word{
+ 	height: 140px;5
+ }
+ .foot .one-word a{
+	font: 20px/160px 楷体;
+	color: #222;
+ }
+ .foot ul{
+ 	width: 660px;
+ 	height: 30px;
+ 	margin: 0 auto;
+ }
+ .foot ul li{
+ 	float: left;
+ 	margin: 0px 40px;
+ 	color: #444;
+	font: 13px/10px 微软雅黑;
+ }
+ .foot .copyright{
+ 	font: 12px 微软雅黑;
+ }
+ .foot ul li a:hover{
+ 	color: rgb(62,177,240);
+ }

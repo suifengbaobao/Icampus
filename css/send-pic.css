@@ -1,0 +1,158 @@
+body,div,input,img,span,a,ul,li,p,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+img{
+	border: 0px;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float:right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
+
+/*Õº∆¨—°‘Ò*/
+.send-left{
+	width: 430px;
+	height: 600px;
+	margin: 20px;
+}
+.select-pic{
+	height: 220px;
+	height: 220px;
+	margin: 10px auto;
+	position: relative;
+}
+.pic{
+	height: 250px;
+	width: 400px;
+	margin: 0 auto;
+	/*border: 1px solid #ddd;*/
+	/* border-radius: 50%; */
+}
+.pic #send-pic{
+	height: 250px;
+	width: 400px;
+	border: 0px;
+}
+.a-upload{
+	padding: 4px 10px;
+	cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 100px;
+    bottom: -100px;
+}
+.a-upload:hover {
+    color: rgb(67,177,240);
+    border-color: rgb(67,177,240);
+    text-decoration: none;
+}
+#file_upload{
+	color: #888;
+	padding: 4px 10px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    bottom: -100px;
+}
+#file_upload:hover{
+	color: rgb(67,177,240);
+    border-color: rgb(67,177,240);
+    text-decoration: none;
+}
+.select-pic input[type="file"]{
+	padding: 0px;
+	margin: 0px;
+	height: 20px;
+	width: 100%;
+	font-size: 100px;
+	position: absolute;
+	opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+/*Õº∆¨√Ë ˆ*/
+.send-right{
+	width: 470px;
+	height: 600px;
+	color: #888;
+}
+.send-right input{
+	border: 1px solid #ddd;
+	outline-style: none;
+	height: 30px;
+	width: 200px;
+	margin: 30px 15px 15px 20px;
+}
+.div-title input{
+	width: 300px;
+	height: 30px;
+}
+.div-title select{
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+	outline-style: none;
+	border: 1px solid #ddd;
+}
+.div-description textarea{
+	border: 1px solid #ddd;
+	resize: none;
+	width: 300px;
+	height: 150px;
+	margin-left: 20px;
+	outline-style: none;
+	vertical-align: top;
+}
+.div-site input{
+	width: 300px;
+	margin-top: 20px;
+
+}
+#submit{
+	margin: 20px 0px 0px 150px;
+	background: #fff;
+	height: 30px;
+	width: 120px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	font-size: 16px;
+}
+#submit:hover{
+	border-color: rgb(67,177,240);
+	color: rgb(67,177,240);
+}

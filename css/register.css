@@ -1,0 +1,146 @@
+/*
+* @Author: suife
+* @Date:   2017-04-15 10:39:26
+* @Last Modified by:   suife
+* @Last Modified time: 2017-04-22 22:43:12
+*/
+body{
+	background: rgb(252,252,252);
+}
+/*注册*/
+.register{
+	width: 980px;
+	height: 510px;
+	border: 1px solid #ccc;
+	margin: 30px auto;
+	background: #fff;
+	color: rgb(153,153,153);
+	font: 14px 宋体;
+}
+
+.register input{
+	border: 1px solid #ddd;
+	outline-style: none;
+	height: 30px;
+	width: 200px;
+	margin: 15px;
+}
+
+.register input[type="radio"]{
+	width: 13px;
+	height: 13px;
+}
+.register input[type="file"]{
+	border: 0px;
+}
+.register-left{
+	width: 500px;
+	height: 470px;
+	padding: 50px 40px;
+	/* border-right: 1px solid #ddd; */
+}
+.register-right{
+	width: 358px;
+	height: 510px;
+	padding: 20px;
+}
+.div-user-pic{
+	height: 220px;
+	height: 220px;
+	margin: 10px auto;
+	position: relative;
+}
+.user-pic{
+	display:block;
+	height: 198px;
+	width: 198px;
+	margin: 0 auto;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.a-upload{
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 28px;
+	width:80px;
+    line-height: 28px;
+	text-align:center;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+#file_upload{
+	color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 28px;
+	width:60px;
+    line-height: 28px;
+	text-align:center;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+#file_upload:hover{
+	color: rgb(67,177,240);
+    border-color: rgb(67,177,240);
+    text-decoration: none
+}
+.a-upload:hover {
+    color: rgb(67,177,240);
+    border-color: rgb(67,177,240);
+    text-decoration: none
+}
+.div-user-pic input[type="file"]{
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+	width: 100%;
+	font-size: 100px;
+	position: absolute;
+	opacity: 0;
+    cursor: pointer
+}
+.div-hobby,.div-signature{
+	text-align: center;
+	width: 360px;
+	margin: 10px auto;
+}
+.div-signature textarea{
+	border: 1px solid #ddd;
+	resize: none;
+	width: 260px;
+	height: 60px;
+	outline-style: none;
+	vertical-align: top;
+}
+.div-submit{
+	width: 150px;
+	height: 50px;
+	margin: 0 auto;
+}
+input[type="submit"]{
+	background: #fff;
+	height: 30px;
+	width: 120px;
+	border-radius: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	font-size: 16px;
+}
+input[type="submit"]:hover{
+	border-color: rgb(67,177,240);
+	color: rgb(67,177,240);
+}
+span.error{
+	display: inline-block;
+	height: 30px;
+	width: 160px;
+}
